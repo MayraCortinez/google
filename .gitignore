@@ -1,3 +1,25 @@
-/node_modules
+# Ignorar archivos y carpetas específicas de Vercel
+.vercel
+.vercelignore
+
+# Ignorar directorio de compilación o distribución
+dist/
+build/
+
+# Ignorar archivos de configuración
 .env
+.env.local
+.env.*.local
+
+# Ignorar archivos y carpetas generados por IDEs
+.idea/
+.vscode/
+
+# Ignorar archivos de respaldo
+*.bak
+*.swp
+
+# Ignorar archivos y carpetas de dependencias de desarrollo
+node_modules/
 package-lock.json
+yarn.lock
