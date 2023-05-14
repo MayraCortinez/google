@@ -1,0 +1,26 @@
+# Ignorar archivos de configuración del entorno
+.env
+
+# Ignorar directorios y archivos generados por el sistema
+node_modules/
+dist/
+*.log
+package-lock.json
+
+# Ignorar archivos de respaldo
+*.bak
+*.swp
+
+# Ignorar archivos y directorios específicos
+config.js
+secret.key
+docs/
+
+# Ignorar extensiones de archivos compilados
+*.html
+*.css
+*.js
+
+# Ignorar archivos y directorios generados por IDEs
+.idea/
+.vscode/
